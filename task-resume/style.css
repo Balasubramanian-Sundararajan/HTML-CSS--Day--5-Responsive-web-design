@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+:root {
+    --primary-ff: "Poppins", sans-serif;
+    --primary-fw: 400;
+    --primary-fs: 14px;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    min-width: 100%;
+    overflow-x: hidden;
+    font-family: var(--primary-ff);
+    font-size: var(--primary-fs);
+  }
+
+.header {
+    height:250px;
+    background-color: #565656;
+}
+.sub-header {
+    background-color: #EEEEEE;
+    height: 30px;
+   
+}
+.name-bg {
+    background-color: #FABE28;
+    height: 58px;
+    z-index: 1;
+}
+
+.sample-person {
+    width: 130px;
+    height: 130PX;
+    margin-top: 3rem;
+    border-radius: 50%;
+    border:5px dotted #FABE28;
+}
+.title {
+    color:#959595;
+    font-weight:300;
+}
+.form-range::-webkit-slider-thumb {
+    background: gray;
+  }
+  
+  .form-range::-moz-range-thumb {
+    background: gray;
+  }
+  
+  .form-range::-ms-thumb {
+    background: gray;
+  }
+
+ .skills p {
+    margin-bottom: 8px;
+ }
+
+@media (max-width: 576px) {
+ 
+    .name-bg {
+        width:70%;
+        margin-top: 0rem;
+    }
+    .header {
+        height:150px;
+        
+    }
+    .sample-person {
+        width: 80px;
+        height: 80PX;
+        margin-top: 0rem;    
+        
+    }
+    
+}
